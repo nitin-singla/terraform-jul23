@@ -1,6 +1,6 @@
 ### Lab: Terraform Providers
 
-1. We have a new configuration. Inspect its directory and find out the number of providers initialized within this directory.
+1. We have a new configuration. Inspect its directory (`dir1/`) and find out the number of providers initialized within this directory.
 Do not run `terraform init` yet!
 
 ```hcl
@@ -70,7 +70,7 @@ Once done, the two files defined inside the resource blocks should be created wi
 
 ---
 
-7. We have created another directory containing configuration files.
+7. We have created another directory (`dir2/`) containing configuration files.
 Inspect this configuration directory.
 
 cyberpunk.tf
@@ -91,7 +91,7 @@ resource "local_file" "ps5" {
 
 ---
 
-8. How many resources are configured within this configuration directory?
+8. How many resources are configured within this configuration directory (`dir2/`)?
 Make sure to check all the `.tf` files.
 * 2
 * 0
