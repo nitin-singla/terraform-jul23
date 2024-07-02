@@ -1,4 +1,4 @@
-Lab: Variables - 1
+### Lab: Variables - 1
 
 1. Which of the following is not a valid `variable type`?
 * object
