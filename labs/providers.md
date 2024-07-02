@@ -23,6 +23,7 @@ resource "local_file" "more-things-to-do" {
 * 4
 * 5
 
+---
 
 2. After running `terraform init`. How about now? How many provider plugins are installed in this configuration directory?
 
@@ -45,7 +46,11 @@ resource "local_file" "more-things-to-do" {
 * 4
 * 5
 
+---
+
 3. (Later)
+
+---
 
 4. How many resources are configured in this configuration directory?
 Count all the resource blocks used.
@@ -54,12 +59,16 @@ Count all the resource blocks used.
 * 2
 * 3
 
+---
 
 5. What is the version of the plugin for the local provider that has been downloaded for this configuration? (Try this yourself)
 
+---
 
 6. Now, go ahead and create these resources using terraform!
 Once done, the two files defined inside the resource blocks should be created with the correct file names and content.
+
+---
 
 7. We have created another directory containing configuration files.
 Inspect this configuration directory.
@@ -80,6 +89,8 @@ resource "local_file" "ps5" {
 }
 ```
 
+---
+
 8. How many resources are configured within this configuration directory?
 Make sure to check all the `.tf` files.
 * 2
@@ -87,6 +98,7 @@ Make sure to check all the `.tf` files.
 * 5
 * 1
 
+---
 
 9. What is the `filename` that will be created by the resource called `cyberpunk`?
 
@@ -95,6 +107,7 @@ Make sure to check all the `.tf` files.
 * `/root/ps5.txt`
 * `/root/cyberpunk2077.txt`
 
+---
 
 10. Create a new configuration file within the same directory called `xbox.tf`. This file should make use of the same `local_file` resource type with the below requirements:
 
