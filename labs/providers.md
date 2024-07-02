@@ -82,7 +82,7 @@ resource "local_file" "cyberpunk" {
 ```
 
 ps5.tf
-```
+```hcl
 resource "local_file" "ps5" {
  filename     = "/root/ps5.txt"
  content  = "And a PS5!"
