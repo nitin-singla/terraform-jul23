@@ -16,6 +16,8 @@ Lab: Variables - 1
 * array
 * list
 
+---
+
 3.
 Which type does the variable called `number` belong to?
 
