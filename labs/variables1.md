@@ -18,8 +18,7 @@
 
 ---
 
-3.
-Which type does the variable called `number` belong to?
+3. Which type does the variable called `number` belong to?
 
 (variables.tf)
 ```hcl
