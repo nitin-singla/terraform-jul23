@@ -1,6 +1,6 @@
 Lab: Variables - 1
 
-1. Which of the following is not a valid variable type?
+1. Which of the following is not a valid `variable type`?
 * object
 * tuple
 * list
@@ -9,7 +9,7 @@ Lab: Variables - 1
 
 ---
 
-2. Which one of the below is not a valid data type in terraform?
+2. Which one of the below is not a valid data type in `terraform`?
 * set
 * map
 * tuple
@@ -17,7 +17,7 @@ Lab: Variables - 1
 * list
 
 3.
-Which type does the variable called number belong to?
+Which type does the variable called `number` belong to?
 
 (variables.tf)
 ```hcl
@@ -66,8 +66,9 @@ variable "users" {
 
 ---
 
-4. How would you fetch the value of the key called slow from the variable called `hard_drive` in a terraform configuration?
-This variable is defined in the file variables.tf.
+4. How would you fetch the value of the key called `slow` from the variable called `hard_drive` in a `terraform` configuration?
+This variable is defined in the file `variables.tf`.
+
 * `var.hard_drive.0`
 * `var.hard_drive[0]`
 * `hard_drive[“slow”]`
@@ -76,7 +77,7 @@ This variable is defined in the file variables.tf.
 
 ---
 
-5. What is the index of the element called Female in the variable called gender?
+5. What is the index of the element called `Female` in the variable called `gender`?
 Female
 * `var.gender[“female”]`
 * 3
@@ -85,13 +86,17 @@ Female
 
 ---
 
-6. What is the type of variable called users?
-set
-list(string)
-list
-set(string)
+6. What is the type of variable called `users`?
+
+* `set`
+* `list(string)`
+* `list`
+* `set(string)`
+
+---
 
 7. However, this variable has been defined incorrectly! Identify the mistake.
+
 * type used is incorrect
 * syntax error
 * duplicate elements
@@ -99,7 +104,7 @@ set(string)
 
 --- 
 
-8. We have now updated the main.tf file and added some resource blocks. Inspect them.
+8. We have now updated the `main.tf` file and added some resource blocks. Inspect them.
 
 ```hcl
 resource "local_file" "jedi" {
