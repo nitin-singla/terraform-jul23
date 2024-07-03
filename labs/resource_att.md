@@ -11,7 +11,7 @@ resource "time_static" "time_update" {
 - - -
 
 2. What is the `resource_type` of the resource that's currently defined in the `main.tf` file?
-If unsure, refer to the documentation.
+If unsure, refer to the [documentation](https://registry.terraform.io/providers/hashicorp/time/latest/docs/resources/offset).
 * `time_stamp`
 * `time`
 * `time_static`
@@ -27,12 +27,12 @@ When applied as it is, `terraform` creates a logical resource locally (similar t
 - - -
 
 4. Which of the following `attributes` are exported by the `time_static` resource?
-If unsure, refer to the documentation. Documentation tab is available at the top right panel.
-* id
-* content
-* filename
-* century
-* decade
+If unsure, refer to the documentation.
+* id`
+* `content`
+* `filename`
+* `century`
+* `decade`
 - - -
 
 5. How do we refer to the attribute called `id` using a reference expression?
