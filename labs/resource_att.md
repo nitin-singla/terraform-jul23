@@ -28,7 +28,7 @@ When applied as it is, `terraform` creates a logical resource locally (similar t
 
 4. Which of the following `attributes` are exported by the `time_static` resource?
 If unsure, refer to the documentation.
-* id`
+* `id`
 * `content`
 * `filename`
 * `century`
