@@ -2,10 +2,10 @@
 
 1. How can we use `environment` variables to pass `input variables` in `terraform` scripts?
 
-* TF_VAR_<variable_name>
-* .tf
-* export variable
-* .var
+* `TF_VAR_<variable_name>`
+* `.tf`
+* `export variable`
+* `.var`
 
 - - -
 
@@ -23,6 +23,7 @@ If unsure, Refer to the documentation.
 - - -
 
 4. We have created some files under the directory `/dir1`. Inspect it.
+
 `basket.auto.tfvars`
 ```hcl
 filename = "./basketball.txt"
@@ -65,6 +66,6 @@ Don't have to specify a `default` value.
 
 8. If we run `terraform apply` with a `-var` command line flag as shown below, which value would be considered by `terraform`?
 ```hcl
-terraform apply -var filename=/./tennis.txt`
+terraform apply -var filename=./tennis.txt
 ```
 
