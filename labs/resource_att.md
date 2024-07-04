@@ -46,6 +46,7 @@ If unsure, refer to the documentation.
 - - -
 
 6. Now, update the `main.tf` file and add a new `local_file` resource called `time` with the following requirements:
+
 filename: `{path.module}/time.txt`
 content: `Time stamp of this file is <id from time_update resource>`
 
